@@ -1,7 +1,7 @@
 #+bind: org-html-preamble preamble-animated
 
 #+title: Home
-#+setupfile: ~/home/org/website/src/root.setup
+#+setupfile: ../src/root.setup
 #+options: num:nil toc:nil
 #+description: This is the description 
 #+keywords:
@@ -9,4 +9,5 @@
 
 * All elements
 See a list of [[file:elements.org][available elements here]].
+
 

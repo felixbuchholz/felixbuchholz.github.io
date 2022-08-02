@@ -1,7 +1,7 @@
 #+bind: org-html-preamble preamble-static 
 
 #+title: Elements
-#+setupfile: ~/home/org/website/src/root.setup
+#+setupfile: ../src/root.setup
 #+options: num:nil toc:nil
 
 * Props and Drawers

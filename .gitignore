@@ -5,6 +5,9 @@
 
 # Local output
 output/
+content/sitemap.org
+content/theindex.org
+content/theindex.inc
 
 # Local emacs packages
 .packages/
