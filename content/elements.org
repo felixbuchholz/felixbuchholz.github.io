@@ -16,7 +16,7 @@ CLOCK: [2022-07-27 Wed 17:15]--[2022-07-27 Wed 17:15] =>  0:00
 
 * Smart quotes
 
-Hello "again" and 'and' Marisa's
+Hello "again" and 'and' John's
 
 * Tables
 
