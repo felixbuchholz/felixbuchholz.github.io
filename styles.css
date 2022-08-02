@@ -1,0 +1,49 @@
+:root {
+	--text-color: #444;
+	--text-hover-color: #f11;
+}
+
+html, body {
+	font-family: "Open Sans", sans-serif;
+	color: var(--text-color);
+	font-weight: bold;
+	box-sizing: border-box;
+}
+
+#content, #postamble p {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	font-weight: bold;
+	color: var(--text-color);
+	text-decoration-line: underline;
+	text-decoration-thickness: 0.25em;
+	text-underline-offset: 0.05em;
+}
+
+a:hover {
+	color: var(--text-hover-color);
+}
+
+ul, li {
+	margin: 0.5em 0;
+}
+
+.org-info-js_info-navigation td {
+	padding-bottom: 0.5em;
+}
+
+.org-info-js_info-navigation span {
+	font-variant: normal !important;
+	text-transform: capitalize;
+}
+
+.org-info-js_info-navigation {
+	border-bottom: 1px solid #ccc !important;
+}
