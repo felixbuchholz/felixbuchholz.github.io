@@ -1,0 +1,39 @@
+#+bind: org-html-preamble preamble-static 
+
+#+title: Elements
+#+setupfile: ~/home/org/website/src/root.setup
+#+options: num:nil toc:nil
+
+* Props and Drawers
+DEADLINE: <2022-07-27 Wed>
+:PROPERTIES:
+:DESCRIPTION: Hello
+:Effort:   0:45
+:END:
+:LOGBOOK:
+CLOCK: [2022-07-27 Wed 17:15]--[2022-07-27 Wed 17:15] =>  0:00
+:END:
+
+* Smart quotes
+
+Hello "again" and 'and' Marisa's
+
+* Tables
+
+| hello | again |
+|-------+-------|
+|     1 |     2 |
+|       |       |
+
+* Quotes
+
+#+begin_quote
+Hallo! 
+#+end_quote
+
+* Headlines
+** Level 2
+*** Level 3
+**** Level 4
+Level 4 becomes a list, but you can change this in the config
+

@@ -1,0 +1,41 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010719//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%"
+	viewBox="0 0 100 100">
+	<g id="logo-scale" transform="scale(1)" transform-origin="50% 50%">
+		<g id="logo-center" transform="translate(-50 -50)">
+			<svg xmlns:xlink="http://www.w3.org/1999/xlink" id="logo" width="100" height="100" viewBox="0 0 100 100" x="50%"
+				y="50%">
+				<rect id="rect-left" fill="currentColor" x="0" y="0" width="47" height="100" />
+				<rect id="rect-center" fill="currentColor" x="47" y="0" width="6" height="100" />
+				<rect id="rect-right" fill="currentColor" x="53" y="0" width="47" height="100" />
+				<g id="star-move" transform="translate(7.5 100)">
+					<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="28.53" viewBox="0 0 30 28.53">
+						<polygon id="star" fill="currentColor"
+							points="15 0 18.54 10.9 30 10.9 20.73 17.63 24.27 28.53 15 21.8 5.73 28.53 9.27 17.63 0 10.9 11.46 10.9 15 0" />
+					</svg>
+				</g>
+			</svg>
+		</g>
+	</g>
+
+	<animateTransform xlink:href="#logo-scale" id="shrinkLogo" attributeName="transform" attributeType="XML" type="scale"
+		from="40" to="1" dur="0.75s" calcMode="spline" keytimes="0;1" keySplines="0.77 0 0.4 1" fill="freeze" />
+
+	<animate xlink:href="#rect-center" attributeName="height" from="100" to="0" begin="shrinkLogo.end - 0.5s" dur="0.5s"
+		fill="freeze" />
+	<animate xlink:href="#rect-center" id="shrinkRectCenter" attributeName="y" from="0" to="100"
+		begin="shrinkLogo.end - 0.5s" dur="0.5s" fill="freeze" />
+
+	<animate xlink:href="#rect-left" attributeName="height" begin="shrinkRectCenter.end" to="15" dur="0.75s"
+		calcMode="spline" keytimes="0;1" keySplines="0.77 0 0.4 1" fill="freeze" />
+	<animate xlink:href="#rect-left" id="shrinkRectLeft" attributeName="y" begin="shrinkRectCenter.end" to="85"
+		dur="0.75s" calcMode="spline" keytimes="0;1" keySplines="0.77 0 0.4 1" fill="freeze" />
+
+	<animateTransform xlink:href="#star-move" id="moveStar" attributeName="transform" attributeType="XML" type="translate"
+		from="7.5 100" to="7.5 27.5" begin="shrinkRectLeft.end - 0.25s" dur="0.5s" calcMode="spline" keytimes="0;1"
+		keySplines="0.77 0 0.4 1" fill="freeze" />
+
+	<animateTransform xlink:href="#star" id="rotateStar" attributeName="transform" attributeType="XML" type="rotate"
+		from="-570 15 14.265" to="0 14 14.265" begin="shrinkRectLeft.end - 0.2s " dur="0.75s" calcMode="spline"
+		keytimes="0;1" keySplines="0.77 0 0.4 1" fill="freeze" />
+</svg>
