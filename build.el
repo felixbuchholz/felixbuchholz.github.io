@@ -61,10 +61,12 @@
 		:sitemap-title "Sitemap")
 
 		("website-public"
-		:base-directory "./content/public"
+		:base-directory "./content"
 		:base-extension "png\\|jpg\\|webloc\\|pdf\\|svg"
-		:publishing-directory "./output/public"
-		:publishing-function org-publish-attachment)
+		:publishing-directory "./output"
+		:publishing-function org-publish-attachment
+		:recursive t
+		)
 
 		("website-src"
 		:base-directory "./src"

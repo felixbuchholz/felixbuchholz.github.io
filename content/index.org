@@ -11,3 +11,9 @@
 See a list of [[file:elements.org][available elements here]].
 
 
+* Image
+
+
+#+DOWNLOADED: screenshot @ 2022-08-04 10:08:26
+[[file:img/20220804-100826_screenshot.png]]
+
