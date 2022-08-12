@@ -1,19 +1,21 @@
 #+bind: org-html-preamble preamble-animated
 
-#+title: Home
+#+title: Tomorrow will be anxious for itself 
 #+setupfile: ../src/root.setup
 #+options: num:nil toc:nil
-#+description: This is the description 
+#+description: Introduction
 #+keywords:
 #+subtitle:
 
-* All elements
-See a list of [[file:elements.org][available elements here]].
 
+#+DOWNLOADED: https://upload.wikimedia.org/wikipedia/commons/9/98/Scribble_.png @ 2022-08-12 19:46:51
+[[file:img/wikipedia-scribble.png]]
 
-* Image
+* Introduction
 
+Welcome. I’m very excited you found this place. Here you can find things I want to share. For some of these things you might have to look around a bit. It might be worth it, though.
 
-#+DOWNLOADED: screenshot @ 2022-08-04 10:08:26
-[[file:img/20220804-100826_screenshot.png]]
+The best thing that can come out of this, is us working on giving a shared idea life.
+
+I never check my social media and probably should delete my accounts. If you want to make the best thing happen, just [[mailto:felix@felixbuchholz.com][send me an email]].  
 

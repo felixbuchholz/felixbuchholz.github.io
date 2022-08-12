@@ -1,0 +1,11 @@
+#+bind: org-html-preamble preamble-animated
+
+#+TITLE: Index
+#+setupfile: ../src/root.setup
+#+options: num:nil toc:nil
+#+description: Index of important texts
+#+keywords: index
+#+subtitle:
+
+#+INCLUDE: "theindex.inc"
+

@@ -1,0 +1,12 @@
+#+bind: org-html-preamble preamble-animated
+
+#+TITLE: Sitemap
+#+setupfile: ../src/root.setup
+#+options: num:nil toc:nil
+#+description: Sitemap
+#+keywords: sitemap
+#+subtitle:
+
+* Auto-generated list of all pages
+
+#+include: "sitemap-base.org" :lines "3-"

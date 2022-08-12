@@ -4,6 +4,17 @@
 #+setupfile: ../src/root.setup
 #+options: num:nil toc:nil
 
+#+DOWNLOADED: http://felixbuchholz.com/uploads/a5d472edc49c4f99a4b6522e6f58ca3d.jpg @ 2022-08-05 00:39:11
+#+caption: This is a caption
+[[file:img/ubi-hero.jpg]]
+
+
+* Example page
+
+Example page: [[file:ubi.org][UBI]]
+
+* Image
+
 * Props and Drawers
 DEADLINE: <2022-07-27 Wed>
 :PROPERTIES:
@@ -15,6 +26,7 @@ CLOCK: [2022-07-27 Wed 17:15]--[2022-07-27 Wed 17:15] =>  0:00
 :END:
 
 * Smart quotes
+#+index: Smart
 
 Hello "again" and 'and' John's
 
@@ -27,13 +39,101 @@ Hello "again" and 'and' John's
 
 * Quotes
 
+- wraps in <blockquote> tag
+
 #+begin_quote
 Hallo! 
 #+end_quote
+
+* Verses
+
+- produce class "verse"
+- includes breaks on every line
+
+#+begin_verse
+This is a poem
+but it’s short
+#+end_verse
+
+* Center
+
+- produces class "org-center"
+
+
+#+begin_center
+Central
+#+end_center
+
+* Code
+
+#+begin_src JavaScript
+const test = "a"
+console.log(test)
+#+end_src
 
 * Headlines
 ** Level 2
 *** Level 3
 **** Level 4
 Level 4 becomes a list, but you can change this in the config
+
+
+
+* Example text
+#+caption: test
+#+begin_quote
+	the strength of the deblocking filter, between 0 (no filtering) and 100 (maximum filtering). A value of 0 turns off any filtering. Higher values increase the strength of the filtering process applied after decoding the image. The higher the value, the smoother the image appears. Typical values are usually in the range of 20 to 50.
+#+end_quote
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec nisi vitae lacus scelerisque vulputate. Nullam pellentesque consequat nunc id commodo. Proin tempus arcu a mauris dictum, sit amet iaculis leo accumsan. Fusce venenatis diam sit amet dolor hendrerit euismod. Sed eu tincidunt sapien. Quisque quis viverra sem, et sollicitudin ipsum. Nulla sodales massa metus, vitae blandit velit vulputate a. Suspendisse ultricies justo non neque sagittis, posuere efficitur diam suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec ut eleifend metus. Donec volutpat non leo vitae malesuada. Sed nec libero purus. Aenean ullamcorper purus non efficitur egestas. Mauris at semper purus, a rhoncus augue.
+
+
+| Column A | Column B |
+|----------+----------|
+| Row 1    | Cell 2   |
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec nisi vitae lacus scelerisque vulputate. Nullam pellentesque consequat nunc id commodo. Proin tempus arcu a mauris dictum, sit amet iaculis leo accumsan. Fusce venenatis diam sit amet dolor hendrerit euismod. Sed eu tincidunt sapien. Quisque quis viverra sem, et sollicitudin ipsum. Nulla sodales massa metus, vitae blandit velit vulputate a. Suspendisse ultricies justo non neque sagittis, posuere efficitur diam suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec ut eleifend metus. Donec volutpat non leo vitae malesuada. Sed nec libero purus. Aenean ullamcorper purus non efficitur egestas. Mauris at semper purus, a rhoncus augue.
+
+
+#+DOWNLOADED: screenshot @ 2022-08-05 15:38:57
+#+caption: Test
+[[file:img/imagemagick-screenshot.png]]
+
+
+* Another Headline
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec nisi vitae lacus scelerisque vulputate. Nullam pellentesque consequat nunc id commodo. Proin tempus arcu a mauris dictum, sit amet iaculis leo accumsan. Fusce venenatis diam sit amet dolor hendrerit euismod. Sed eu tincidunt sapien. Quisque quis viverra sem, et sollicitudin ipsum. Nulla sodales massa metus, vitae blandit velit vulputate a. Suspendisse ultricies justo non neque sagittis, posuere efficitur diam suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec ut eleifend metus. Donec volutpat non leo vitae malesuada. Sed nec libero purus. Aenean ullamcorper purus non efficitur egestas. Mauris at semper purus, a rhoncus augue.
+
+* This is also a Headline
+
+Proin ut tortor accumsan dolor laoreet scelerisque. Curabitur auctor sagittis metus vel bibendum. Nunc interdum lectus arcu, non malesuada justo consequat ac. Curabitur eget mi enim.
+
+** A Sub Headline
+
+#+DOWNLOADED: http://felixbuchholz.com/uploads/a5595c33c0664c21932095f56c79ffef.jpg @ 2022-08-04 16:12:52
+#+caption: test
+[[file:img/jobs-to-loose-ai.jpg]]
+
+Proin ut tortor accumsan dolor laoreet scelerisque. Curabitur auctor sagittis metus vel bibendum. Nunc interdum lectus arcu, non malesuada justo consequat ac. Curabitur eget mi enim. Fusce ac erat ornare, elementum justo eget, lacinia eros. In sodales, odio quis accumsan tempus, lorem turpis pellentesque justo, quis malesuada ipsum tortor eu dui. In at magna et arcu mattis dapibus. Aliquam erat volutpat. Proin bibendum eu quam et porta. In a semper nisl, eu scelerisque dolor. Duis finibus ac est nec venenatis. Proin facilisis velit mi, a laoreet leo euismod ac. Vestibulum tempus aliquet arcu et eleifend. Nulla eu tellus tempus, efficitur nunc ut, sollicitudin felis.
+
+** And More of the Same
+
+#+begin_quote
+	the strength of the deblocking filter, between 0 (no filtering) and 100 (maximum filtering). A value of 0 turns off any filtering. Higher values increase the strength of the filtering process applied after decoding the image. The higher the value, the smoother the image appears. Typical values are usually in the range of 20 to 50.
+#+end_quote
+
+ Proin bibendum eu quam et porta. In a semper nisl, eu scelerisque dolor. Duis finibus ac est nec venenatis. Proin facilisis velit mi, a laoreet leo euismod ac. Vestibulum tempus aliquet arcu et eleifend. Nulla eu tellus tempus, efficitur nunc ut, sollicitudin felis.
+ 
+#+DOWNLOADED: http://felixbuchholz.com/uploads/2adeef57687b4380b85431b3dbd1b891.jpg @ 2022-08-04 16:16:32
+[[file:img/poverty-trap.jpg]]
+
+** Last Headline
+
+#+DOWNLOADED: http://felixbuchholz.com/uploads/8f243b2c56134ca3884d44372450ea51.jpg @ 2022-08-04 16:18:25
+[[file:img/ubi-hand-drawn.jpg]]
+
+ Proin bibendum eu quam et porta. In a semper nisl, eu scelerisque dolor. Duis finibus ac est nec venenatis. Proin facilisis velit mi, a laoreet leo euismod ac. Vestibulum tempus aliquet arcu et eleifend. Nulla eu tellus tempus, efficitur nunc ut, sollicitudin felis.
+
 
