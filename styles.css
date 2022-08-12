@@ -395,30 +395,29 @@ figure img {
 
 
 /* Postamble */
+#content {
+	border-bottom: 1px solid var(--color-main-2);
+}
 
 #postamble {
-	flex-wrap: wrap;
-	border-top: 1px solid var(--color-main-2);
-	padding-bottom: var(--space-2);
-	padding-left: var(--content-padding-width-3);
-	padding-right: var(--content-padding-width-3);
-	padding-top: var(--space-1);
-	margin: 0 auto;
+	max-width: var(--max-width-3);
+	padding: var(--space-2) var(--content-padding-width-3);
 }
 
 #nav-footer, #nav-footer-ul {
 	display: inline;
 }
 
-#nav-footer {
-	margin-right: var(--space-2);
+#nav-footer-ul {
+	padding-left: 0;
 }
 
-.author, .date {
+.date {
 	font-family: var(--font-stack-sans);
 	font-size: 0.7em;
-	max-width: var(--max-width-3);
+	margin-top: var(--space-025);
 }
+
 
 /* Typography */
 
