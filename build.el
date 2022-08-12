@@ -57,7 +57,7 @@
 (defun preamble-animated (plist) (format my-org-preamble-animated))
 
 (setq org-html-postamble-format
-      '(("en" "<nav id=\"nav-footer\"><ul id=\"nav-footer-ul\"><li class=\"nav-li\"><a href=\"#preamble\">Top</a>, </li><li class=\"nav-li\"><a href=\"/\">Home</a>, </li><li class=\"nav-li\"><a href=\"/sitemap\">Sitemap</a>, </li><li class=\"nav-li\"><a href=\"/theindex\">Index</a>, </li><li class=\"nav-li\"><a href=\"/imprint\">Imprint</a></li></ul></nav><div class=\"date\">Updated: %C</div>")))
+      '(("en" "<div id=\"footer\"><nav id=\"nav-footer\"><ul id=\"nav-footer-ul\"><li class=\"nav-li\"><a href=\"#preamble\">Top</a>, </li><li class=\"nav-li\"><a href=\"/\">Home</a>, </li><li class=\"nav-li\"><a href=\"/sitemap\">Sitemap</a>, </li><li class=\"nav-li\"><a href=\"/theindex\">Index</a>, </li><li class=\"nav-li\"><a href=\"/imprint\">Imprint</a></li></ul></nav><div class=\"date\">Updated: %C</div></div>")))
 
 ;;; org publish
 

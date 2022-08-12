@@ -2,5 +2,5 @@
 
 - [[file:elements.org][Elements]]
 - [[file:theindex.org][Index]]
-- [[file:index.org][Let what you say be simply ‘Yes’ or ‘No’]]
 - [[file:sitemap.org][Sitemap]]
+- [[file:index.org][Tomorrow will be anxious for itself]]
