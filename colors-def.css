@@ -1,0 +1,22 @@
+:root {
+	/* Color */
+	/* Background */
+	--color-background: #fdc586;
+	/* Color main */
+	--color-main: #0d4e63;
+	/* Color main scale large */
+	--color-main-op1: #0d4e6311;
+	--color-main-op2: #0d4e6322;
+	--color-main-op3: #0d4e6333;
+	--color-main-op4: #0d4e6344;
+	--color-main-op5: #0d4e6355;
+	--color-main-op6: #0d4e6366;
+	--color-main-op7: #0d4e6377;
+	--color-main-op8: #0d4e6388;
+	--color-main-op9: #0d4e6399;
+	--color-main-op10: #0d4e63aa;
+	--color-main-op11: #0d4e63bb;
+	--color-main-op12: #0d4e63cc;
+	--color-main-op13: #0d4e63dd;
+	--color-main-op14: #0d4e63ee;
+}

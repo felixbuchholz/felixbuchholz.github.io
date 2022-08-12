@@ -1,24 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2022-08-04 Thu 08:20 -->
+<!-- 2022-08-12 Fri 18:59 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Elements</title>
 <meta name="generator" content="Org mode">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./colors-def.css" />
 <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
 <div id="preamble" class="status">
-<embed src="public/logo.svg" width="100%" height="50px" />
+<a id="nav-link-logo" href="/" target="_self"><embed id="logo" src="public/logo.svg" width="100%" height="50px" /></a><nav><ul id="nav-main-ul"><li class="nav-li"><a href="/">Home</a>, </li><li class="nav-li"><a href="/sitemap.html">Sitemap</a>, </li><li class="nav-li"><a href="/theindex.html">Index</a></li></ul></nav>
 </div>
 <div id="content">
+<header>
 <h1 class="title">Elements</h1>
+</header>
+<figure>
+<img src="img/ubi-hero.jpg" alt="ubi-hero.jpg">
 
-<div id="outline-container-orgb239679" class="outline-2">
-<h2 id="orgb239679">Props and Drawers</h2>
-<div class="outline-text-2" id="text-orgb239679">
+<figcaption><span class="figure-number">Figure 1: </span>This is a caption</figcaption>
+</figure>
+
+
+<div id="outline-container-org7736988" class="outline-2">
+<h2 id="org7736988">Example page</h2>
+<div class="outline-text-2" id="text-org7736988">
+<p>
+Example page: <a href="ubi.html">UBI</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org51760bb" class="outline-2">
+<h2 id="org51760bb">Image</h2>
+</div>
+
+<div id="outline-container-orgea01829" class="outline-2">
+<h2 id="orgea01829">Props and Drawers</h2>
+<div class="outline-text-2" id="text-orgea01829">
 <p><span class="timestamp-wrapper"><span class="timestamp-kwd">DEADLINE:</span> <span class="timestamp">&lt;2022-07-27 Wed&gt;</span></span></p>
 <pre class="example">
 DESCRIPTION: Hello
@@ -32,18 +54,18 @@ Effort: 0:45
 </div>
 </div>
 
-<div id="outline-container-orgfaa635e" class="outline-2">
-<h2 id="orgfaa635e">Smart quotes</h2>
-<div class="outline-text-2" id="text-orgfaa635e">
+<div id="outline-container-orgaf1c883" class="outline-2">
+<h2 id="orgaf1c883">Smart quotes</h2>
+<div class="outline-text-2" id="text-orgaf1c883">
 <p>
 Hello &ldquo;again&rdquo; and &rsquo;and&rsquo; John&rsquo;s
 </p>
 </div>
 </div>
 
-<div id="outline-container-org11570a3" class="outline-2">
-<h2 id="org11570a3">Tables</h2>
-<div class="outline-text-2" id="text-org11570a3">
+<div id="outline-container-org4f220b9" class="outline-2">
+<h2 id="org4f220b9">Tables</h2>
+<div class="outline-text-2" id="text-org4f220b9">
 <table>
 
 
@@ -73,9 +95,13 @@ Hello &ldquo;again&rdquo; and &rsquo;and&rsquo; John&rsquo;s
 </div>
 </div>
 
-<div id="outline-container-org84951f2" class="outline-2">
-<h2 id="org84951f2">Quotes</h2>
-<div class="outline-text-2" id="text-org84951f2">
+<div id="outline-container-orgb507400" class="outline-2">
+<h2 id="orgb507400">Quotes</h2>
+<div class="outline-text-2" id="text-orgb507400">
+<ul class="org-ul">
+<li>wraps in &lt;blockquote&gt; tag</li>
+</ul>
+
 <blockquote>
 <p>
 Hallo! 
@@ -84,21 +110,63 @@ Hallo!
 </div>
 </div>
 
-<div id="outline-container-orgbdfe627" class="outline-2">
-<h2 id="orgbdfe627">Headlines</h2>
-<div class="outline-text-2" id="text-orgbdfe627">
+<div id="outline-container-org632510c" class="outline-2">
+<h2 id="org632510c">Verses</h2>
+<div class="outline-text-2" id="text-org632510c">
+<ul class="org-ul">
+<li>produce class &ldquo;verse&rdquo;</li>
+<li>includes breaks on every line</li>
+</ul>
+
+<p class="verse">
+This is a poem<br>
+but it’s short<br>
+</p>
 </div>
-<div id="outline-container-org9d7ae8a" class="outline-3">
-<h3 id="org9d7ae8a">Level 2</h3>
-<div class="outline-text-3" id="text-org9d7ae8a">
 </div>
-<div id="outline-container-org436128a" class="outline-4">
-<h4 id="org436128a">Level 3</h4>
-<div class="outline-text-4" id="text-org436128a">
+
+<div id="outline-container-orgea02be8" class="outline-2">
+<h2 id="orgea02be8">Center</h2>
+<div class="outline-text-2" id="text-orgea02be8">
+<ul class="org-ul">
+<li>produces class &ldquo;org-center&rdquo;</li>
+</ul>
+
+
+<div class="org-center">
+<p>
+Central
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org854d113" class="outline-2">
+<h2 id="org854d113">Code</h2>
+<div class="outline-text-2" id="text-org854d113">
+<div class="org-src-container">
+<pre class="src src-JavaScript">const test = "a"
+console.log(test)
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgfe9379b" class="outline-2">
+<h2 id="orgfe9379b">Headlines</h2>
+<div class="outline-text-2" id="text-orgfe9379b">
+</div>
+<div id="outline-container-orgdc928c2" class="outline-3">
+<h3 id="orgdc928c2">Level 2</h3>
+<div class="outline-text-3" id="text-orgdc928c2">
+</div>
+<div id="outline-container-org16ceb88" class="outline-4">
+<h4 id="org16ceb88">Level 3</h4>
+<div class="outline-text-4" id="text-org16ceb88">
 </div>
 <ul class="org-ul">
-<li><a id="orgf1e9771"></a>Level 4<br>
-<div class="outline-text-5" id="text-orgf1e9771">
+<li><a id="org0ed5da8"></a>Level 4<br>
+<div class="outline-text-5" id="text-org0ed5da8">
 <p>
 Level 4 becomes a list, but you can change this in the config
 </p>
@@ -108,10 +176,134 @@ Level 4 becomes a list, but you can change this in the config
 </div>
 </div>
 </div>
+
+
+
+<div id="outline-container-org8c3c9ac" class="outline-2">
+<h2 id="org8c3c9ac">Example text</h2>
+<div class="outline-text-2" id="text-org8c3c9ac">
+<blockquote>
+<p>
+the strength of the deblocking filter, between 0 (no filtering) and 100 (maximum filtering). A value of 0 turns off any filtering. Higher values increase the strength of the filtering process applied after decoding the image. The higher the value, the smoother the image appears. Typical values are usually in the range of 20 to 50.
+</p>
+</blockquote>
+
+
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec nisi vitae lacus scelerisque vulputate. Nullam pellentesque consequat nunc id commodo. Proin tempus arcu a mauris dictum, sit amet iaculis leo accumsan. Fusce venenatis diam sit amet dolor hendrerit euismod. Sed eu tincidunt sapien. Quisque quis viverra sem, et sollicitudin ipsum. Nulla sodales massa metus, vitae blandit velit vulputate a. Suspendisse ultricies justo non neque sagittis, posuere efficitur diam suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec ut eleifend metus. Donec volutpat non leo vitae malesuada. Sed nec libero purus. Aenean ullamcorper purus non efficitur egestas. Mauris at semper purus, a rhoncus augue.
+</p>
+
+
+<table>
+
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Column A</th>
+<th scope="col" class="org-left">Column B</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Row 1</td>
+<td class="org-left">Cell 2</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec nisi vitae lacus scelerisque vulputate. Nullam pellentesque consequat nunc id commodo. Proin tempus arcu a mauris dictum, sit amet iaculis leo accumsan. Fusce venenatis diam sit amet dolor hendrerit euismod. Sed eu tincidunt sapien. Quisque quis viverra sem, et sollicitudin ipsum. Nulla sodales massa metus, vitae blandit velit vulputate a. Suspendisse ultricies justo non neque sagittis, posuere efficitur diam suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec ut eleifend metus. Donec volutpat non leo vitae malesuada. Sed nec libero purus. Aenean ullamcorper purus non efficitur egestas. Mauris at semper purus, a rhoncus augue.
+</p>
+
+
+
+<figure>
+<img src="img/imagemagick-screenshot.png" alt="imagemagick-screenshot.png">
+
+<figcaption><span class="figure-number">Figure 2: </span>Test</figcaption>
+</figure>
+</div>
+</div>
+
+
+<div id="outline-container-org6b19616" class="outline-2">
+<h2 id="org6b19616">Another Headline</h2>
+<div class="outline-text-2" id="text-org6b19616">
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec nisi vitae lacus scelerisque vulputate. Nullam pellentesque consequat nunc id commodo. Proin tempus arcu a mauris dictum, sit amet iaculis leo accumsan. Fusce venenatis diam sit amet dolor hendrerit euismod. Sed eu tincidunt sapien. Quisque quis viverra sem, et sollicitudin ipsum. Nulla sodales massa metus, vitae blandit velit vulputate a. Suspendisse ultricies justo non neque sagittis, posuere efficitur diam suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec ut eleifend metus. Donec volutpat non leo vitae malesuada. Sed nec libero purus. Aenean ullamcorper purus non efficitur egestas. Mauris at semper purus, a rhoncus augue.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1f15930" class="outline-2">
+<h2 id="org1f15930">This is also a Headline</h2>
+<div class="outline-text-2" id="text-org1f15930">
+<p>
+Proin ut tortor accumsan dolor laoreet scelerisque. Curabitur auctor sagittis metus vel bibendum. Nunc interdum lectus arcu, non malesuada justo consequat ac. Curabitur eget mi enim.
+</p>
+</div>
+
+<div id="outline-container-org20f7930" class="outline-3">
+<h3 id="org20f7930">A Sub Headline</h3>
+<div class="outline-text-3" id="text-org20f7930">
+
+<figure>
+<img src="img/jobs-to-loose-ai.jpg" alt="jobs-to-loose-ai.jpg">
+
+<figcaption><span class="figure-number">Figure 3: </span>test</figcaption>
+</figure>
+
+<p>
+Proin ut tortor accumsan dolor laoreet scelerisque. Curabitur auctor sagittis metus vel bibendum. Nunc interdum lectus arcu, non malesuada justo consequat ac. Curabitur eget mi enim. Fusce ac erat ornare, elementum justo eget, lacinia eros. In sodales, odio quis accumsan tempus, lorem turpis pellentesque justo, quis malesuada ipsum tortor eu dui. In at magna et arcu mattis dapibus. Aliquam erat volutpat. Proin bibendum eu quam et porta. In a semper nisl, eu scelerisque dolor. Duis finibus ac est nec venenatis. Proin facilisis velit mi, a laoreet leo euismod ac. Vestibulum tempus aliquet arcu et eleifend. Nulla eu tellus tempus, efficitur nunc ut, sollicitudin felis.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf2df27b" class="outline-3">
+<h3 id="orgf2df27b">And More of the Same</h3>
+<div class="outline-text-3" id="text-orgf2df27b">
+<blockquote>
+<p>
+the strength of the deblocking filter, between 0 (no filtering) and 100 (maximum filtering). A value of 0 turns off any filtering. Higher values increase the strength of the filtering process applied after decoding the image. The higher the value, the smoother the image appears. Typical values are usually in the range of 20 to 50.
+</p>
+</blockquote>
+
+<p>
+Proin bibendum eu quam et porta. In a semper nisl, eu scelerisque dolor. Duis finibus ac est nec venenatis. Proin facilisis velit mi, a laoreet leo euismod ac. Vestibulum tempus aliquet arcu et eleifend. Nulla eu tellus tempus, efficitur nunc ut, sollicitudin felis.
+</p>
+
+
+<figure>
+<img src="img/poverty-trap.jpg" alt="poverty-trap.jpg">
+
+</figure>
+</div>
+</div>
+
+<div id="outline-container-orgbc8e76b" class="outline-3">
+<h3 id="orgbc8e76b">Last Headline</h3>
+<div class="outline-text-3" id="text-orgbc8e76b">
+
+<figure>
+<img src="img/ubi-hand-drawn.jpg" alt="ubi-hand-drawn.jpg">
+
+</figure>
+
+<p>
+Proin bibendum eu quam et porta. In a semper nisl, eu scelerisque dolor. Duis finibus ac est nec venenatis. Proin facilisis velit mi, a laoreet leo euismod ac. Vestibulum tempus aliquet arcu et eleifend. Nulla eu tellus tempus, efficitur nunc ut, sollicitudin felis.
+</p>
+</div>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2022-08-04 Thu 08:20</p>
-<p class="validation"></p>
+<nav id="nav-footer"><ul id="nav-footer-ul"><li class="nav-li"><a href="#preamble">Top</a>, </li><li class="nav-li"><a href="/">Home</a>, </li><li class="nav-li"><a href="/sitemap">Sitemap</a>, </li><li class="nav-li"><a href="/theindex">Index</a>, </li><li class="nav-li"><a href="/imprint">Imprint</a></li></ul></nav><span class="date">Updated: 2022-08-12 Fri 18:59</span><span class="author"> by </span>
 </div>
 </body>
 </html>
